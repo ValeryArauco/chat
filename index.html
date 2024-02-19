@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .jumbotron {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+
+        .vertical-center {
+            display: flex;
+            align-items: center;
+        }
+
+        .img-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .skill-title {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#acerca-de">Acerca de Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resumen-habilidades">Resumen de Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="acerca-de" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 vertical-center">
+                <h2>Franz Beltrán</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut aliquam ligula. Quisque euismod
+                    augue et lectus condimentum, sed fringilla libero varius. Fusce a tellus magna. Nulla facilisi.
+                    Proin vulputate lectus nec lorem tristique, in vehicula ex feugiat. Duis eget varius leo, nec
+                    vestibulum odio. Phasellus venenatis eros et vehicula tincidunt. Ut tempor est vel semper
+                    interdum.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="me.png" alt="Mi foto" class="img-fluid img-center">
+            </div>
+        </div>
+    </div>
+
+    <div id="resumen-habilidades" class="container mt-5">
+        <h2 class="skill-title">Habilidades</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="habilidad1.png" alt="Habilidad 1" class="img-fluid" style="max-width: 150px;">
+            </div>
+            <div class="col-md-6 vertical-center">
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut aliquam ligula. Quisque euismod
+                    augue et lectus condimentum, sed fringilla libero varius.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="habilidad2.png" alt="Habilidad 2" class="img-fluid" style="max-width: 150px;">
+            </div>
+            <div class="col-md-6 vertical-center">
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut aliquam ligula. Quisque euismod
+                    augue et lectus condimentum, sed fringilla libero varius.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="habilidad3.png" alt="Habilidad 3" class="img-fluid" style="max-width: 150px;">
+            </div>
+            <div class="col-md-6 vertical-center">
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut aliquam ligula. Quisque euismod
+                    augue et lectus condimentum, sed fringilla libero varius.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="portafolio" class="container mt-5">
+        <h2 class="text-center">Portafolio</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="portafolio1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción breve del proyecto 1.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#proyecto1Modal">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="portafolio2.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción breve del proyecto 2.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#proyecto2Modal">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="portafolio3.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción breve del proyecto 3.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#proyecto3Modal">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales -->
+    <div class="modal fade" id="proyecto1Modal" tabindex="-1" role="dialog" aria-labelledby="proyecto1ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="proyecto1ModalLabel">Proyecto 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Contenido del proyecto 1.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="proyecto2Modal" tabindex="-1" role="dialog" aria-labelledby="proyecto2ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="proyecto2ModalLabel">Proyecto 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Contenido del proyecto 2.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="proyecto3Modal" tabindex="-1" role="dialog" aria-labelledby="proyecto3ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="proyecto3ModalLabel">Proyecto 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Contenido del proyecto 3.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="servicios" class="container mt-5">
+        <h2 class="text-center">Servicios</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="servicio1.jpg" class="card-img-top" alt="Servicio 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Servicio 1</h5>
+                        <p class="card-text">Descripción breve del servicio 1.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#servicio1Modal">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="servicio2.jpg" class="card-img-top" alt="Servicio 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Servicio 2</h5>
+                        <p class="card-text">Descripción breve del servicio 2.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#servicio2Modal">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="servicio3.jpg" class="card-img-top" alt="Servicio 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Servicio 3</h5>
+                        <p class="card-text">Descripción breve del servicio 3.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#servicio3Modal">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales -->
+    <div class="modal fade" id="servicio1Modal" tabindex="-1" role="dialog" aria-labelledby="servicio1ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="servicio1ModalLabel">Servicio 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Contenido del servicio 1.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="servicio2Modal" tabindex="-1" role="dialog" aria-labelledby="servicio2ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="servicio2ModalLabel">Servicio 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Contenido del servicio 2.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="servicio3Modal" tabindex="-1" role="dialog" aria-labelledby="servicio3ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="servicio3ModalLabel">Servicio 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Contenido del servicio 3.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contacto" class="container mt-5">
+        <h2 class="text-center">Contacto</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" rows="5"
+                            placeholder="Escriba su mensaje aquí"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Derechos de autor &copy; Franz Beltrán</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
